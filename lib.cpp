@@ -9,8 +9,13 @@ bool vero_falso(char a)
     int b;
     b=(int)a;
     if (b>=65 & b<=90 || b>=97 & b<=122)
+    {
         return true;
-    else return false;
+    }
+    else
+    {
+        return false;
+    }
 }
 char lettera(char a)
 {
